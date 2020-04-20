@@ -4,7 +4,7 @@ import java.net.ServerSocket;
 public class Server implements Runnable {
 	
 	private static volatile Server instane = null;    
-	private final int SERVER_PORT = 22;       
+	private final int SERVER_PORT = 53;       
 	private ServerSocket serverSoket = null; 
 	
 	private Server() {} 
